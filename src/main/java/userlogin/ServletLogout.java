@@ -18,6 +18,8 @@ public class ServletLogout extends HttpServlet {
         if(session!=null){
             session.invalidate();
             resp.getWriter().println("You have logged out");
+        }else{
+            resp.getWriter().println("Maybe try login first...");
         }
 
     }

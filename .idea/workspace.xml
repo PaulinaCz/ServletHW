@@ -15,11 +15,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3848406-7793-4916-928c-7d8c6c2d64df" name="Default Changelist" comment="task - login with parameters and redirect to homepage">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
+    <list default="true" id="d3848406-7793-4916-928c-7d8c6c2d64df" name="Default Changelist" comment="task - homepage with username greetings&#10;task - logout from session">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/userlogin/ServletHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userlogin/ServletHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/userlogin/ServletLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userlogin/ServletLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/userlogin/ServletLogout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/userlogin/ServletLogout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ServletHW.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ServletHW.war" afterDir="false" />
     </list>
@@ -154,7 +152,7 @@
       <updated>1593506090045</updated>
       <workItem from="1593506093314" duration="2608000" />
       <workItem from="1593508713530" duration="812000" />
-      <workItem from="1593516697581" duration="2064000" />
+      <workItem from="1593516697581" duration="2711000" />
     </task>
     <task id="LOCAL-00001" summary="task - show in servlet date and time&#10;task - print list of numbers up to given parameter">
       <created>1593508893159</created>
@@ -184,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593517626761</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="task - homepage with username greetings&#10;task - logout from session">
+      <created>1593519009725</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593519009725</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +212,8 @@
     <MESSAGE value="task - print list of numbers up to given parameter&amp;save last as cookie value" />
     <MESSAGE value="task - application login" />
     <MESSAGE value="task - login with parameters and redirect to homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="task - login with parameters and redirect to homepage" />
+    <MESSAGE value="task - homepage with username greetings&#10;task - logout from session" />
+    <option name="LAST_COMMIT_MESSAGE" value="task - homepage with username greetings&#10;task - logout from session" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593506885153">

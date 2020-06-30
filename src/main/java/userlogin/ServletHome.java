@@ -11,11 +11,19 @@ import java.io.IOException;
 @WebServlet("/home")
 public class ServletHome extends HttpServlet {
 
+
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
         Object sessionAttribute = session.getAttribute("name");
-        resp.getWriter().println("Hello " + sessionAttribute + "!");
+
+        if(sessionAttribute == null){
+            resp.getWriter().println("Content available only for logged in users");
+        }else {
+            resp.getWriter().println("Hello " + sessionAttribute + "!");
+        }
 
     }
+
 }
